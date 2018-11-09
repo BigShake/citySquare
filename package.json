@@ -1,0 +1,23 @@
+{
+  "name": "city-square",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "",
+    "dev": "node app.js",
+    "initdb": "npm install && node databases/initdb.js"
+  },
+  "author": "swn",
+  "license": "MIT",
+  "dependencies": {
+    "knex": "^0.15.2",
+    "koa": "^2.6.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-log4": "^2.3.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.11",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {}
+}
